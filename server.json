@@ -1,0 +1,15 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.appstorepack/appstorepack",
+  "title": "AppStorePack",
+  "description": "Create App Store screenshots, app icons and store copy, then push them to App Store Connect.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.appstorepack.com",
+  "icons": [
+    { "src": "https://www.appstorepack.com/logo-512.png", "mimeType": "image/png", "sizes": ["512x512"] },
+    { "src": "https://www.appstorepack.com/logo.svg", "mimeType": "image/svg+xml", "sizes": ["any"] }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://www.appstorepack.com/api/mcp" }
+  ]
+}
